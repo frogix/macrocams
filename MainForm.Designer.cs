@@ -46,7 +46,7 @@
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.tableLayoutPanel1.SetRowSpan(this.pictureBox1, 2);
-            this.pictureBox1.Size = new System.Drawing.Size(916, 757);
+            this.pictureBox1.Size = new System.Drawing.Size(380, 357);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -85,7 +85,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 58.71886F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 41.28114F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1170, 761);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(634, 361);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
             // panel1
@@ -97,7 +97,7 @@
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
             this.tableLayoutPanel1.SetRowSpan(this.panel1, 2);
-            this.panel1.Size = new System.Drawing.Size(244, 755);
+            this.panel1.Size = new System.Drawing.Size(244, 355);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -113,9 +113,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1170, 761);
+            this.ClientSize = new System.Drawing.Size(634, 361);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimumSize = new System.Drawing.Size(650, 400);
             this.Name = "MainForm";
             this.Text = "Macrocams";
             this.Load += new System.EventHandler(this.Form1_Load);
